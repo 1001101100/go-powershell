@@ -25,7 +25,7 @@ Runspaces
 
 A runspace is where you execute your powershell commands and statements in. It is also a boundary for variables such as "$global". If you specify custom log routines or callback handlers they are also bound to the runspace. This is to enable you to bind context to the log routine or callback handler.
 
-Please see the runspace section for more information on creating a runspace and executing scripts and commands https://godoc.org/github.com/KnicKnic/go-powershell/pkg/powershell#Runspace .
+Please see the runspace section for more information on creating a runspace and executing scripts and commands https://godoc.org/github.com/1001101100/go-powershell/pkg/powershell#Runspace .
 
 
 Scripts vs Commands

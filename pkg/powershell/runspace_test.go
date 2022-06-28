@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/KnicKnic/go-powershell/pkg/logger"
+	"github.com/1001101100/go-powershell/pkg/logger"
 )
 
 func ExampleRunspace_ExecScript() {

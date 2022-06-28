@@ -8,7 +8,7 @@ import (
 
 	"sync"
 
-	"github.com/KnicKnic/go-powershell/pkg/powershell"
+	"github.com/1001101100/go-powershell/pkg/powershell"
 )
 
 func executePowershellFullCreate(script string, namedArgs map[string]interface{}) (obj []string, err error) {

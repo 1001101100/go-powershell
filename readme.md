@@ -1,8 +1,8 @@
 [![Build Status](https://dev.azure.com/oneeyedelf1/powershell.native/_apis/build/status/KnicKnic.go-powershell?branchName=master)](https://dev.azure.com/oneeyedelf1/powershell.native/_build/latest?definitionId=3&branchName=master)
-[![Go Report Card](https://goreportcard.com/badge/github.com/KnicKnic/go-powershell)](https://goreportcard.com/report/github.com/KnicKnic/go-powershell)
+[![Go Report Card](https://goreportcard.com/badge/github.com/1001101100/go-powershell)](https://goreportcard.com/report/github.com/1001101100/go-powershell)
 [![gopherbadger](https://img.shields.io/badge/Go%20Coverage-80%25-brightgreen.svg?longCache=true&style=flat)](./scripts/code_coverage.ps1)
-[![GoDoc](https://godoc.org/github.com/KnicKnic/go-powershell/pkg/powershell?status.svg)](https://godoc.org/github.com/KnicKnic/go-powershell/pkg/powershell)
-[![GitHub commits since latest release (branch)](https://img.shields.io/github/commits-since/KnicKnic/go-powershell/latest.svg)](https://github.com/KnicKnic/go-powershell/releases/latest)
+[![GoDoc](https://godoc.org/github.com/1001101100/go-powershell/pkg/powershell?status.svg)](https://godoc.org/github.com/1001101100/go-powershell/pkg/powershell)
+[![GitHub commits since latest release (branch)](https://img.shields.io/github/commits-since/KnicKnic/go-powershell/latest.svg)](https://github.com/1001101100/go-powershell/releases/latest)
 
 # Goal
 
@@ -25,7 +25,7 @@ It works
 1. Call from powershell back to golang (via special Send-HostCommand commandlet)
 1. trap host output in powershell and call custom logging routines in golang
 1. has automated tests
-1. Docs - if you missed the badge above go to https://godoc.org/github.com/KnicKnic/go-powershell/pkg/powershell
+1. Docs - if you missed the badge above go to https://godoc.org/github.com/1001101100/go-powershell/pkg/powershell
 
 This project is not api stable, however I believe it will be simple if you do use the current api to migrate to any future changes.
 
@@ -45,7 +45,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/KnicKnic/go-powershell/pkg/powershell"
+	"github.com/1001101100/go-powershell/pkg/powershell"
 )
 
 func main() {

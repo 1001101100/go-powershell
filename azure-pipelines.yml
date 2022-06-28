@@ -101,7 +101,7 @@ steps:
 - task: CmdLine@2
   displayName: Build examples_cmd.exe
   inputs:
-    script: 'go build -a -o examples_cmd.exe  github.com/KnicKnic/go-powershell/examples/cmd'
+    script: 'go build -a -o examples_cmd.exe  github.com/1001101100/go-powershell/examples/cmd'
 - task: PowerShell@2
   displayName: Test examples_cmd.exe
   inputs:

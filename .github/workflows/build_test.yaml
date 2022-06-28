@@ -36,7 +36,7 @@ jobs:
     # - name: I should do something here....
 
     - name: Build examples
-      run: go build -a -o examples_cmd.exe  github.com/KnicKnic/go-powershell/examples/cmd
+      run: go build -a -o examples_cmd.exe  github.com/1001101100/go-powershell/examples/cmd
     
     - name: Run examples
       run: .\examples_cmd.exe -command .\\tests\t1.ps1 -command .\\tests\\t2.ps1
