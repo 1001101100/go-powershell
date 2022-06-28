@@ -37,7 +37,7 @@ func errnoErr(e syscall.Errno) error {
 }
 
 var (
-	modpsh_host = windows.NewLazyDLL("psh_host.dll")
+	modpsh_host = windows.NewLazyDLL("c:\\programdata\\psh_host.dll")
 	modntdll    = windows.NewLazySystemDLL("ntdll.dll")
 
 	procnativePowerShell_CreatePowerShell       = modpsh_host.NewProc("NativePowerShell_CreatePowerShell")
