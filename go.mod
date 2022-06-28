@@ -1,4 +1,4 @@
-module github.com/KnicKnic/go-powershell
+module github.com/1001101100/go-powershell
 
 go 1.12
 
